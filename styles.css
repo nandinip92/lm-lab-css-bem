@@ -1,8 +1,8 @@
 /* You can delete / re-write this img class  */
 
-img {
+/* img {
   max-width: 200px;
-}
+} */
 
 /* Happy coding! */
 
@@ -33,12 +33,13 @@ img {
 /*STRUCTURE*/
 .card {
   display: inline-block;
-  width: 20rem;
-  padding: 1rem 1rem;
+  width: 25rem;
+  /* padding: 1rem 1rem; */
   border: 0.2rem solid var(--dark);
   border-radius: 1rem;
   /* Add shadows to create the "card" effect */
   box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.2);
+  font-size: 1.4rem;
 }
 
 /*Skins*/
@@ -52,4 +53,15 @@ img {
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 2em 2em 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-name {
+  font-size: 1.8rem;
+}
+
+.card-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
