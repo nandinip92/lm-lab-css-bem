@@ -28,18 +28,27 @@
 
 .card-holder {
   display: flex;
+  justify-content: center;
 }
 
 /*STRUCTURE*/
 .card {
   display: inline-block;
   width: 25rem;
-  /* padding: 1rem 1rem; */
   border: 0.2rem solid var(--dark);
   border-radius: 1rem;
   /* Add shadows to create the "card" effect */
   box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.2);
   font-size: 1.4rem;
+}
+
+.button {
+  width: 7rem;
+  padding: 5px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #d1f2eb;
 }
 
 /*Skins*/
@@ -50,9 +59,17 @@
   background-color: var(--grey);
 }
 
+.success {
+  background: green;
+}
+
+.warning {
+  background: red;
+}
+
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 2em 2em 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2.5rem 2.5rem 0 rgba(0, 0, 0, 0.2);
 }
 
 .card-name {
