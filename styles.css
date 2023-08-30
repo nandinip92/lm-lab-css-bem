@@ -23,7 +23,7 @@
 
 * {
   margin: 1rem;
-  padding: 1rem;
+  padding: 0.2rem;
   box-sizing: border-box;
   /* font-size: 1.5rem; */
 }
@@ -38,23 +38,10 @@
   box-shadow: 0 2.5rem 2.5rem 0 rgba(0, 0, 0, 0.2);
 }
 
-.card-name {
-  font-size: 1.8rem;
-}
-
-.card-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 25%;
-}
-
-/*STRUCTURE*/
+/*BLOCK*/
 .card {
   display: inline-block;
   width: 25rem;
-  height: 45rem;
   border: 0.2rem solid var(--dark);
   border-radius: 1rem;
   /* Add shadows to create the "card" effect */
@@ -62,7 +49,37 @@
   font-size: 1.4rem;
 }
 
-.button {
+/*ELEMENTS*/
+.card__force {
+  background-color: var(--yellow);
+}
+.card__darkSide {
+  background-color: var(--grey);
+}
+
+.card__darthMaul {
+  background-color: darkcyan;
+}
+
+.card__bb8 {
+  background-color: var(--liliac);
+}
+
+.card__name {
+  font-size: 1.8rem;
+}
+
+.card__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+}
+
+/*STRUCTURE*/
+.card__button {
   width: 7rem;
   padding: 5px;
   border-radius: 4px;
@@ -72,21 +89,6 @@
 }
 
 /*Skins*/
-.force {
-  background-color: var(--yellow);
-}
-.darkSide {
-  background-color: var(--grey);
-}
-
-.darthMaul {
-  background-color: darkcyan;
-}
-
-.bb8 {
-  background-color: var(--liliac);
-}
-
 .success {
   background: green;
 }
