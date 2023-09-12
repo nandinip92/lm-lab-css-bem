@@ -89,10 +89,10 @@
 }
 
 /*Skins*/
-.success {
+.card__button--success {
   background: green;
 }
 
-.warning {
+.card__button--warning {
   background: red;
 }
